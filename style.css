@@ -52,16 +52,91 @@ nav ul li :hover{
     margin-top: 90px;
 }
 .hero-text-heading{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl DemiBold',sans-serif;
     font-weight: 700;
-    font-size: 50px;
-    
-    line-height: 55px;
+    font-size: 38px;
+    max-width: 16ch;
     
 }
 .hero-text-paragraph{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    max-width: 36ch;
+}
+
+/* PROFESSIONAL CLEANING SECTION */
+.professional-cleaning{
+    background-color: #708090;
+}
+.clean-text-head{
+    font-family: 'Batangas';
+    color: #292929;
+    font-weight: 700;
+    font-size: 37px;
+    text-align: center;
+}
+.clean-text-para{
+    font-family: 'TT Firs Neue Trl';
+    text-align: center;
+    font-size: 17px;
+    color: #ffff;
+    margin-top: 30px;
+    max-width: 26ch;
+    margin-left: 100px;
+    word-spacing: 1.5px;
+    line-height: 2ch;
+}
+.icon-text-group{
+    
+    margin-top: 135px;
+}
+
+.icon-text-group ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+}
+.icon-text{
+    font-family: 'Batangas';
+    font-size: 22.5px;
+    color: #ffff;
+}
+.icon-num{
+    font-family: 'Batangas';
+    font-size: 22.5px;
+    color: #010101;
+    margin-top: -20px;
     
 }
+
+/* BUBBLES SECTION */
+.bubbles{
+    background-image: url(./Resources/Bubbles_bg_img.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.bubbles h3{
+    font-family: 'TT Firs Neue Trl';
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bubbles p{
+    font-family: 'Batangas';
+    font-size: 20px;
+    color: #0D0C0B;
+    max-width: 15ch;
+    text-align: center;
+    margin-left: 70px;
+}
+.bubbles img{
+    border-radius: 10px;
+}
+
